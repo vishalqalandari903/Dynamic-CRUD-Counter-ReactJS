@@ -36,8 +36,8 @@ export default function ThemeBtn() {
         {themeMode === "dark" ? (
           <i className="fa-solid fa-moon p-2 px-[0.65rem]"></i>
         ) : (
-          <i className="fa-solid fa-sun p-2"></i>
-          // <i>/<ion-icon name="sunny-outline"></ion-icon>
+          // <i className="fa-solid fa-sun p-2"></i>
+          <i class="fa-solid fa-cloud px-[0.42rem] py-1 text-lg"></i>
         )}
       </div>
     </label>
