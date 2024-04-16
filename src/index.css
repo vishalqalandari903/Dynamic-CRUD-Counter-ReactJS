@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: #000000;
+    --color-text-muted: #6b7280;
+    --color-text-invert: #ffffff;
+    --color-background-body: rgb(147, 197, 253);
+    --color-background-primary: rgb(191, 219, 254);
+    --color-button-primary: rgb(0, 134, 255);
+    --color-button-primary-hover: rgb(0, 96, 180);
+  }
+
+  html.dark {
+    --color-text-base: #ffffff;
+    --color-text-muted: #6b7280;
+    --color-text-invert: #ffffff;
+    --color-background-body: rgb(19, 21, 42);
+    --color-background-primary: rgb(24, 28, 55);
+    --color-button-primary: rgb(0, 134, 255);
+    --color-button-primary-hover: rgb(1, 125, 233);
+  }
+}
